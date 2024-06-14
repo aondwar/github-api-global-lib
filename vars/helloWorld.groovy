@@ -1,3 +1,3 @@
-def call(string name, string dayofweek) {
-    sh "echo Hello {$name} . Today is {$dayofweek}"
+def call(String name, String dayOfWeek) {
+    sh "echo Hello ${name} and today day is ${dayOfWeek}"
 }
